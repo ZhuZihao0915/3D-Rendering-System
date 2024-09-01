@@ -114,27 +114,6 @@ $$
 
 导体材质，即金属，具有镜面反射效果。
 
-$$
-    f_{BRDF}(x, w_i, w_o) = F_r(w_r)\frac{\delta(w_i-w_r)}{cos \theta_i} \\
-$$
-
-$\delta(x)满足:$
-
-$$
-    \delta(x) =
-    \begin{equation}
-    \left\{
-                \begin{array}{lr}
-                \infin & x = 0 \\
-                0 & x \neq0 \\
-                \end{array}
-    \right.
-    \end{equation} \\
-    \begin{equation}
-    \int \delta(x)dx = 1
-    \end{equation}
-$$
-
 其中,
 
 - $w_r$为反射光线
